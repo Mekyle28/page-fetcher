@@ -1,16 +1,3 @@
-// terminal input example
-// > node fetcher.js http://www.example.edu/ ./index.html
-
-//  - require needel and fs 
-//  - process.argv to get comand from terminal 
-//  - const the wed address and the file path
-//  - send request to needle for file 
-//  -- nest writing the file into the desired path 
-//  -- -- nest console.log(`Downloaded and saved ${file 
-//        that was returned .length} bytes to ${file path}.` )
-
-// terminal output for example
-// Downloaded and saved 3261 bytes to ./index.html
 
 const needle = require('needle');
 const fs = require("fs");
